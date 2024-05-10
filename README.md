@@ -1,0 +1,2 @@
+# FTIRDamper
+Filters FTIR Data

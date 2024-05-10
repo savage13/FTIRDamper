@@ -21,5 +21,15 @@ optional arguments:
   -o O        Order of the filter [2]
 ```
 
+### Example
+```shell
+python ./ftir_damper.py -p -w 35  -c 125 -o 2 wiggle.csv wiggleout.csv
+```
+This takes in wiggle.csv with `Wavenumber,intensity` as the format and
+outputs the filtered data, wiggleout.csv along with a plot of the 
+data as a PDF.
+
+<img src="wiggle1out.png" width="70%"/>
+
 ### License
 BSD 2-Clause
